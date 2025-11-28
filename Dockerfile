@@ -1,4 +1,4 @@
 FROM eclipse-temurin:17-jdk
 EXPOSE 8080
-ADD target/dokcer-jenkin-integration-sample.jar dokcer-jenkin-integration-sample.jar
-ENTRYPOINT [ "java", "-jar", "/dokcer-jenkin-integration-sample.jar" ]
+ADD target/docker-jenkin-integration-sample.jar docker-jenkin-integration-sample.jar
+ENTRYPOINT [ "java", "-jar", "/docker-jenkin-integration-sample.jar" ]
